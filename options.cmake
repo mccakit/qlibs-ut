@@ -1,0 +1,1 @@
+option(BUILD_EXAMPLES "Build examples" OFF)
