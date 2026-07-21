@@ -11,5 +11,5 @@ https://mccakit.github.io/boost_ut/
 This library is packaged by CPS, to consume:
 ```cmake
 find_package(ut REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE ut::ut)
+target_link_libraries(${PROJECT_NAME} PRIVATE ut::library)
 ```
