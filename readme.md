@@ -1,6 +1,6 @@
 # qlibs-ut
 
-User Manual | Api Reference
+[User Manual](https://github.com/mccakit/qlibs-ut/blob/main/docs/user_manual.md) | [Api Reference](https://mccakit.github.io/qlibs-ut/)
 
 qlibs-ut is a C++ Module port of [qlibs-ut](https://github.com/qlibs/ut), C++20 Unit-Testing library
 
