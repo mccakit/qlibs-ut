@@ -1,15 +1,15 @@
-### Documentation
+# qlibs-ut
 
-https://boost-ext.github.io/ut/
+User Manual | Api Reference
 
-### API Reference
+qlibs-ut is a C++ Module port of [qlibs-ut](https://github.com/qlibs/ut), C++20 Unit-Testing library
 
-https://mccakit.github.io/boost_ut/
+Project is built using CMake/Ninja and packaged via CPS. CMake 4.4 and later is required.
 
-### Packaging and Consumption
+Build using cmake, and consume via CPS by pointing to `CMAKE_INSTALL_PREFIX` via `CMAKE_PREFIX_PATH`
 
-This library is packaged by CPS, to consume:
 ```cmake
-find_package(ut REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE ut::library)
+find_package(qlibs-ut)
+target_link_libraries($PROJECT PRIVATE qlibs-ut::cxx_module)
 ```
+
