@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.4)
-project(ut VERSION 2.4.0 DESCRIPTION "μ(micro)/Unit Testing framework " LANGUAGES C CXX)
+project(qlibs-ut VERSION 2.4.0 DESCRIPTION "μ(micro)/Unit Testing framework " LANGUAGES C CXX)
 set(CMAKE_EXPERIMENTAL_FIND_CPS_PACKAGES ON)
 set(CMAKE_CXX_MODULE_STD ON)
 set(CMAKE_CXX_STANDARD 23)
